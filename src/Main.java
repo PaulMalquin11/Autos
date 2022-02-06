@@ -22,6 +22,10 @@ public class Main {
         System.out.println("Ingrese la cantidad de autos");
         num_vehiculos = entrada.nextInt();
 
+        mensaje obj = new mensaje();
+        String nombre = obj.solicitaDatos("Escribe tu name");
+        obj.saludar(nombre);
+
         Vehiculo autos[] = new Vehiculo[num_vehiculos];
         for (int i = 0; i< autos.length; i++ ){
             entrada.nextLine();
