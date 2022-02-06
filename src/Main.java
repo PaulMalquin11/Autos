@@ -35,6 +35,6 @@ public class Main {
             autos[i] = new Vehiculo(marca,modelo,precio);
         }
         idbarato = idAutoBarato(autos);
-        System.out.println("El auto mas barato es :" + autos[idbarato].MostrarDatos());
+    System.out.println("El auto mas barato es :" + autos[idbarato].MostrarDatos());
     }
 }
