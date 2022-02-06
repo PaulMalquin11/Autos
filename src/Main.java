@@ -24,7 +24,9 @@ public class Main {
 
         mensaje obj = new mensaje();
         String nombre = obj.solicitaDatos("Escribe tu name");
-        obj.saludar(nombre);
+        String apll = obj.solicitaDatos("Solicita apellido");
+        Persona p1 = new Persona(nombre, apll);
+        obj.saludar(p1);
 
         Vehiculo autos[] = new Vehiculo[num_vehiculos];
         for (int i = 0; i< autos.length; i++ ){

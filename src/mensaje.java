@@ -8,7 +8,7 @@ public class mensaje {
         return entrada.nextLine();
     }
 
-    public void saludar(String nombre) {
-        System.out.println("Hola, bienvenido a java "+ nombre);
+    public void saludar(Persona p) {
+        System.out.printf("Hola, bienvenido a java "+ p);
     }
 }
